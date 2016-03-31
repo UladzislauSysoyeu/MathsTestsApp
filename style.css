@@ -1,0 +1,249 @@
+@font-face{
+    font-family: DSNote;
+    src: url(fonts/stylo_bold.ttf) format('opentype');
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+    background: url(img/School_seamless_pattern_6.jpg) repeat;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#header{
+    height: 55px;
+    padding-top: 10px;
+    padding-bottom: -10px;
+    background: url(img/25_paper01.jpg);
+    color: mediumblue;
+    font-family: DSNote;
+    font-size: 44px;
+    text-align: center;
+}
+
+/*#imgexit{
+    height: 55px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+#txtexit{
+    color: mediumblue;
+    text-align: right;
+    margin-top: -40px;
+    margin-right: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active{
+    color: mediumblue;
+}*/
+
+#footer{
+    width: auto;
+    height: 100px;
+}
+
+#workplace{
+    width: 640px;
+    height: 420px;
+    margin-top: 100px;
+    margin-left: 370px;    
+    font-size: 12px;
+    text-align: center;
+    background: url(img/school0201.jpg);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#list{
+    height: 29px;
+    border: 1px solid black;
+    background-color: white;
+    
+}
+
+#list ul li{
+    width: 19%;
+    float: left;
+    text-align: left;
+    position: relative;
+    font-size: 22px;
+    /*padding: 0 80px;*/
+    border: 1px solid black;
+}
+
+#list ul li a{
+    color: black;
+    padding: 0 10px;
+    font-family: DSNote;
+    text-decoration: none;
+    line-height: 5px;
+}
+
+#list ul li:hover{
+    background: rgba(161, 150, 226, 0.37);
+    text-decoration: underline;
+    
+}
+
+#list .dropdown {
+    position: absolute;
+    top: 100%;
+    display: none;
+    background-color: white;
+    /*margin-left: -86px;*/
+}
+
+#list .dropdown li{
+    width: 260px;
+    padding: 0 3px;
+}
+
+#list li:hover .dropdown{
+    display: block;
+}
+
+#headtitle{
+    margin-top: 30px;
+    padding: 10px,0;
+    font-family: DSNote;
+    font-size: 30px;
+    color: white;
+}
+
+#headtitle1{
+    font-family: DSNote;
+    font-size: 30px;
+    color: white;
+}
+
+#headnumber{
+    font-family: DSNote;
+    margin-top: 40px;
+    font-size: 50px;
+    color: white;
+}
+
+#headnumber1{
+    font-family: DSNote;
+    font-size: 50px;
+    color: white;
+}
+
+#answerfield{
+    font-size: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+#answerbutton{
+    width: 100px;
+    font-family: DSNote;
+    font-size: 23px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#answerbutton1{
+    margin-top: 30px;
+    width: 100px;
+    font-family: DSNote;
+    font-size: 23px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#answertext{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    padding-top: 0;
+    text-align: center;
+    font-family: DSNote;
+}
+
+#finishdialog{
+    color: white;
+    padding-top: 30px;
+    font-size: 26px;
+    text-align: center;
+    font-family: DSNote;
+}
+
+.ui-dialog.ui-widget-content { 
+    background: url(img/board.jpg); 
+}
+
+#authors{
+    display: none;
+    color: white;
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-family: DSNote;
+}
+
+.varbutton{
+    width 100px;
+    height: 30px;
+    font-family: DSNote;
+    font-size: 23px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.numfield{
+    width: 30px;
+    height: 40px;
+    font-size: 30px;
+    padding: 10px,0;
+}
+
+.numfield:nth-child(2n){
+    margin-left: 10px;
+}
+
+

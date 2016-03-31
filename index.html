@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+       <link rel="stylesheet" type="text/css" href="style.css">
+       <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/base/jquery-ui.css">
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+       <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+       <script src="base_func.js"></script>
+       <script src="first_form.js"></script>
+       <script src="second_form.js"></script>
+       <script src="third_form.js"></script>
+       <script src="fourth_form.js"></script>
+        <title>OnlineTests - ресурс с онлайн-тестами</title>
+    </head>
+    <body>
+       <div id="header">
+        <p>Математический тренажер</p>
+        <!-- <a href="#" id="linkexit" onclick="window.close()"><p id="txtexit">Выход</p><img src="img/exit.png" id="imgexit"></a> -->  
+       </div>
+       <div id="list">
+           <ul>
+               <li class="classes"><a href="#">1 класс</a>
+               <ul class="dropdown">
+                   <li><a href="#" onclick="digitNumber()">Состав однозначного числа</a></li>
+                   <li><a href="#" onclick="dbldigitNumber()">Состав двузначного числа</a></li>
+                   <li><a href="#" onclick="plusminusTen()">Сложение и вычитание в пределах 10</a></li>
+                   <li><a href="#" onclick="plusminusTwenty()">Сложение и вычитание в пределах 20</a></li>
+               </ul>
+               </li>
+               <li class="classes"><a href="#">2 класс</a>
+                  <ul class="dropdown">
+                   <li><a href="#" onclick="plusminusTwenty()">Сложение и вычитание в пределах 20</a></li>
+                   <li><a href="#" onclick="plusminusRound()">Сложение и вычитание круглых двухзначных чисел</a></li>
+                   <li><a href="#" onclick="plusminusDigit()">Действия с двухзначными и однозначными числами без перехода через разряд</a></li>
+                   <li><a href="#" onclick="sumRound()">Сложение и вычитание в случаях, когда сумма и уменьшаемое - круглые числа</a></li>
+                   <li><a href="#" onclick="plusminusDblDigit()">Действия с двухзначными и однозначными числами с переходом через разряд</a></li>
+                   <li><a href="#" onclick="plusminusTwentyDigit()">Действия с двухзначными числами без перехода через разряд</a></li>
+                   <li><a href="#" onclick="plusDouble()">Сложение двухзначных чисел с переходом через разряд</a></li>
+                   <li><a href="#" onclick="minusDouble()">Вычитание двухзначных чисел с переходом через разряд</a></li>
+                   <li><a href="#" onclick="plusminusDouble()">Действия с двухзначными числами с переходом через разряд</a></li>
+                  </ul>
+               </li>
+               <li class="classes"><a href="#">3 класс</a>
+                  <ul class="dropdown">
+                   <li><a href="#" onclick="mulOne()">Умножение на 1</a></li>
+                   <li><a href="#" onclick="mulTwo()">Умножение на 2</a></li>
+                   <li><a href="#" onclick="mulThree()">Умножение на 3</a></li>
+                   <li><a href="#" onclick="mulFour()">Умножение на 4</a></li>
+                   <li><a href="#" onclick="mulFive()">Умножение на 5</a></li>
+                   <li><a href="#" onclick="mulSix()">Умножение на 6</a></li>
+                   <li><a href="#" onclick="mulSeven()">Умножение на 7</a></li>
+                   <li><a href="#" onclick="mulEight()">Умножение на 8</a></li>
+                   <li><a href="#" onclick="mulNine()">Умножение на 9</a></li>
+                   <li><a href="#" onclick="mulTen()">Умножение на 10</a></li>
+                   <li><a href="#" onclick="mulDoubleDigit()">Умножение двухзначных на однозначное число</a></li>
+                   <li><a href="#" onclick="mulRound()">Умножение круглых чисел</a></li>
+                   <li><a href="#" onclick="mulTripleDigit()">Умножение трехзначных на однозначное</a></li>
+                  </ul>
+               </li>
+               <li class="classes"><a href="#" class="four">4 класс</a>
+                   <ul class="dropdown">
+                   <li><a href="#" onclick="measure_weight()">Единицы измерения массы</a></li>
+                   <li><a href="#" onclick="measure_time()">Единицы измерения время</a></li>
+                   <li><a href="#" onclick="measure_width()">Единицы измерения длины</a></li>
+                   <li><a href="#" onclick="partofnumber()">Нахождение числа по его доле</a></li>
+                  </ul>
+               </li>
+               <li class="classes">
+                   <a href="#" onclick="authors()">Авторы</a>
+               </li>
+           </ul>
+       </div>
+        <div id="workplace">
+        
+        </div>
+        <div id="finishdialog">  
+            
+        </div>
+        <div id="authors">
+            <p>Учитель начальных классов ГУО "Бортниковский УПК-ясли-сад-средняя школа Бобруйского района": Ирина Эриховна Сысоева</p><br>
+            <p>Студент 4 курса БГУИР: Владислав Сысоев</p><br>
+            <p>Адрес:
+                213857
+                Могилевская область,
+                Бобруйский район,
+                д. Большие Бортники, ул. Восточная 13-1</p>
+        </div>
+        <div id="footer">
+            
+        </div>
+    </body>
+</html>
